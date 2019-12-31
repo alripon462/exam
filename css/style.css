@@ -1,0 +1,111 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+	background: linear-gradient(#3a393952,#3131314f), url(../img/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 138px;
+}
+
+
+/* Global */
+.container{
+  width: 1140px;
+	margin: 0 auto;
+}
+/* Main-col */
+.main-col{
+  float:left;
+  width:60%;
+}
+.main-col h1{
+  color: white;
+}
+.main-col p{
+  padding-top: 20px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.main-col span{
+  color: #6eb86d;
+}
+.main-col ul{
+  list-style: none;
+  padding-bottom: 15px;
+}
+.main-col ul li{
+  list-style: none;
+  padding:10px;
+  margin-bottom:5px;
+  color: white;
+  padding: 1px;
+}
+
+.fa{
+	
+  padding: -2px;
+      border-color: white;
+      border-style: solid;
+      border-color: #e0e0e0;
+      font-size: 12px;
+      border-width: 3px;
+      margin-right: 5px;
+      border-radius: 100%;
+  }
+  .button_1{
+    height:35px;
+    background:#229bf8;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
+    border-radius: 10px;
+  }
+  /* Sidebar */
+aside#sidebar{
+  float:right;
+  width:40%;
+  margin-top:10px;
+}
+aside#sidebar .f_name, aside#sidebar .p_number,aside#sidebar .email,aside#sidebar .password{
+  margin:2px;
+  width: 96%;
+  padding:5px;
+  padding-right: 5px;
+}
+
+.button_2{
+  height:35px;
+  background:#673bb7;
+  border:0;
+  width: 100%;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+  text-transform: uppercase;
+  box-shadow: 0px 6px #467934;
+  margin-bottom: 30px;
+}
+.dark{
+  padding:15px;
+  background:#2196f3;
+  color:#ffffff;
+  margin-top:0 auto;
+  margin-bottom:10px;
+}
+.dark h1{
+  text-align: center;
+  padding-top: 30px;
+}
+.dark p{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
